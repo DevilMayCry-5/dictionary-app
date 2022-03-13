@@ -31,7 +31,7 @@ function App() {
         <DefinitionList data={data} />
       </div>
       <footer>
-        contribute on github @ <a href="">DevilMayCry</a>
+        contribute on github @ <a href="https://github.com/DevilMayCry-5/dictionary-app" target='_blank' rel="noreferrer">DevilMayCry</a>
       </footer>
     </div>
   );

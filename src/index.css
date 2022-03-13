@@ -1,6 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;600;700&display=swap');
-*, *::after, *::before {
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;600;700&display=swap");
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #a8dadc;
   color: #264653;
   -webkit-font-smoothing: antialiased;
@@ -16,13 +17,15 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+.app {
+}
 
 header {
-  background-color: #264653;
+  background-color: #1d3557;
   color: #e76f51;
   text-align: center;
   padding: 2em 0;
@@ -32,8 +35,11 @@ footer {
   background-color: #1d3557;
   width: 100%;
   color: #a8dadc;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding: 1em 2em;
 }
 
 footer a {
@@ -53,7 +59,7 @@ footer a {
 
 input {
   flex: 1;
-  padding: .5em 0;
+  padding: 0.5em 0;
   font-size: 1.5em;
   font-weight: 200;
   background: none;
@@ -61,7 +67,7 @@ input {
   border-bottom: 2px solid #1d3557;
   outline: none;
   color: #1d3557;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 input::placeholder {
@@ -90,21 +96,17 @@ i {
 }
 
 .searched-word {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   display: flex;
   margin: 1em 0;
   align-items: baseline;
 }
 
 .searched-word span {
-  margin-left: .5em;
+  margin-left: 0.5em;
   font-size: 1.25em;
 }
 
 .searched-word span a {
   color: #e6431a;
 }
-
-
-
-
